@@ -45,7 +45,7 @@ body{
     font-size: 20px;
     font-weight: bold;
     color: white;
-    background: blue;
+    background: hsl(320, 100%, 50%);
     border-radius: 5px;
     padding: 10px;
     cursor: pointer;
@@ -162,6 +162,7 @@ body{
     align-content: center;
     justify-content: center;
 }
+
 #blog{
     width: 400px;
     margin: 10px;
@@ -169,6 +170,7 @@ body{
     background: whitesmoke;
     
 }
+
 #blog img{
     width: 400px;
     height: 200px;
@@ -177,8 +179,9 @@ body{
 #blog p{
     padding: 15px;
 }
+
 #blog button{
-    background: blue;
+    background: rgb(13, 255, 0);
     color: white;
     padding: 5px;
     font-size: 25px;
@@ -201,6 +204,7 @@ body{
     margin: 50px;
 
 }
+
 #contact-desc{
     margin-left: 30%;
     margin-right: 30%;
@@ -229,6 +233,7 @@ body{
     border-radius: 10px 0 0 10px;
     border: 0;
 }
+
 #contact-body form button{
     background: rgb(239, 72, 72);
     color: white;
@@ -240,6 +245,7 @@ body{
     border: 0;
 }
 
+
 footer{
     display: flex;
     flex-wrap: wrap;
@@ -247,10 +253,11 @@ footer{
     justify-content: center;
     background: black;
 }
+
 footer h1{
     width: 100%;
     text-align: center;
-    color: red;
+    color: rgb(255, 247, 0);
 }
 footer p{
     color: white;
