@@ -1,3 +1,15 @@
+body{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    font-family: "Audiowide", sans-serif;
+}
+
+.container{
+    width: 100%;
+    background: white; 
+}
+
 .header{
     width: 100%;
     height: 100vh;
@@ -10,6 +22,36 @@
     justify-content: center;
 }
 
+.header-content{
+    
+}
+
+#header-title{
+    font-size: 50px;
+    padding: 10px;
+    color: #ffea96;
+    background: rgba(0, 0, 0, 0.286);
+    border-radius: 15px;
+}
+#header-desc{
+    font-size: 20px;
+    margin-left: 20%;
+    margin-right: 20%;
+    color: rgb(255, 255, 255);
+    font-family: "Trirong", serif;
+    text-align: center;
+}
+#donate-btn{
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    background: blue;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+    
+}
+
 .donate{
     width: 100%;
     height: 25rem;
@@ -18,4 +60,202 @@
     flex-wrap: wrap;
     align-content: center;
     justify-content: center;
+}
+
+.donate-content{
+    color: black;
+}
+
+#donate-amount-body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.donate-amount{
+    padding: 25px;
+    height: 84px;
+    font-size: 35px;
+    font-weight: bold;
+    background-color: rgb(232, 234, 223);
+    color: gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    margin: 10px;
+    font-family: "Trirong", serif;
+}
+#donate-content-desc{
+    margin-left: 35%;
+    margin-right: 35%;
+    text-align: center;
+}
+#donate-input{
+    color: gray;
+    text-align: center;
+}
+#donate-anount-two{
+    color: red;
+    background: rgb(255, 148, 148);
+    border: 2px solid red;
+}
+#donate-content-line{
+    height: 1.5px;
+    margin-left: 25%;
+    margin-right: 25%;
+    background: gray;
+}
+
+.donate-plan{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+}
+#donate-plan-desc{
+    margin-left: 30%;
+    margin-right: 30%;
+    text-align: center;
+}
+
+#donate-plan-body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px 100px 150px 150px;
+}
+#donate-plan-food{
+    background: rgb(170, 195, 208);
+}
+
+.donate-plan-content{
+    margin: 10px;
+    padding: 10px;
+    height: 400px;
+    background: #ff33;
+    border-radius: 5px;
+    box-shadow: 5px 1px 5px 1px #888888;
+}
+.donate-plan-image{
+    width: 100px;
+    height: 100px;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+
+.blogs-body{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+
+}
+
+#blogs-body-header{
+    text-align: center;
+    width: 100%;
+}
+#blogs{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+#blog{
+    width: 400px;
+    margin: 10px;
+    border-radius: 15px;
+    background: whitesmoke;
+    
+}
+#blog img{
+    width: 400px;
+    height: 200px;
+    border-radius: 15px 15px 0 0;
+}
+#blog p{
+    padding: 15px;
+}
+#blog button{
+    background: blue;
+    color: white;
+    padding: 5px;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: right;
+    border: 0;
+    margin: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: "Trirong", serif;
+}
+
+
+
+.contact{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin: 50px;
+
+}
+#contact-desc{
+    margin-left: 30%;
+    margin-right: 30%;
+    text-align: center;
+}
+
+
+#contact-body{
+    margin-left: 20%;
+    margin-right: 20%;
+    background: rgba(245, 189, 189, 0.712);
+    border-radius: 10px;
+    height: 200px;
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#contact-body form{
+    border-radius: 10px;
+}
+#contact-body form input{
+    background: rgb(207, 197, 197);
+    padding: 10px;
+    font-size: 25px;
+    border-radius: 10px 0 0 10px;
+    border: 0;
+}
+#contact-body form button{
+    background: rgb(239, 72, 72);
+    color: white;
+    padding: 10px;
+    font-size: 25px;
+    border-radius: 0 10px 10px 0;
+    margin-left: -10px;
+    width: 200px;
+    border: 0;
+}
+
+footer{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    background: black;
+}
+footer h1{
+    width: 100%;
+    text-align: center;
+    color: red;
+}
+footer p{
+    color: white;
+    margin-left: 30%;
+    margin-right: 30%;
+    font-family: "Sofia", sans-serif;
+    text-align: center;
 }
